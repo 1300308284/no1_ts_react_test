@@ -1,0 +1,25 @@
+{
+  // 编译选项
+  "compilerOptions": {
+    // 编译后输出到的目录
+    "outDir": "./dist",
+    // 编译前后调试用,生成映射文件
+    "sourceMap": true,
+    // 不要隐式的any, true就报错
+    "noImplicitAny": true,
+    // 模块式写法
+    "module": "commonjs",
+    // 把ts编译成es5
+    "target": "es5",
+    // 在react中支持jsx语法
+    "jsx": "react"
+  },
+  // 包含文件下所有文件编译
+  "include": [
+    "./src/**/*"
+  ],
+  // 排除编译的
+  "exclude": [
+    "./dist"
+  ]
+}
